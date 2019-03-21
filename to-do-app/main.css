@@ -1,0 +1,19 @@
+header{
+  background: url(images/background.png) center/cover;
+  height: 100vh;
+  justify-content: center;
+  text-align:center;
+  padding-left: 0;
+}
+
+h1{
+  color: hsla(0,0%, 20%);
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 1024px){
+  header.mdl-layout__header{
+    display: flex;
+  }
+}
